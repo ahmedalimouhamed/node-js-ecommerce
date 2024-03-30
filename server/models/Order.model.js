@@ -7,7 +7,7 @@ const orderModel = new Schema(
       type: String,
       required: true
     },
-    product: [
+    products: [
       {
         productId: {
           type: String
